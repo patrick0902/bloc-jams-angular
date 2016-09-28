@@ -1,0 +1,18 @@
+{
+  "name": "bloc-jams-angular-patrick",
+  "version": "0.0.2",
+  "description": "Starter project for the Bloc Frontend Web Development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bloc/bloc-frontend-project-starter"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/spa-host/index.js index.html assets scripts styles templates"
+  },
+  "author": "Bloc Inc",
+  "license": "ISC",
+  "dependencies": {
+    "spa-host": "^1.0"
+  }
+}
