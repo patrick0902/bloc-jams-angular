@@ -5,10 +5,10 @@
          var currentAlbum = Fixtures.getAlbum();
 
          var getSongIndex = function (song) {
-             return currentAlbum.songs.indexOf(song);
          };
 
          SongPlayer.currentSong = null;
+         var currentSong = SongPlayer.currentSong;
          var currentBuzzObject = null;
 
          var setSong = function (song) {
@@ -22,7 +22,7 @@
                  preload: true
              });
 
-             currentSong = song;
+             SongPlayer.currentSong = song;
          };
 
          SongPlayer.play = function (song) {
